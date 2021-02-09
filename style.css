@@ -1,0 +1,73 @@
+.heads{
+    background-image: url("images/background.jpg") ; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    border: dashed;
+    
+}
+
+.header{
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  font-weight: bold;
+  color:darkred;
+ text-decoration: underline overline;
+ text-decoration-style: wavy;
+  display: flex; 
+   justify-content: center;
+   
+}
+
+.header2{
+    font:  15px Arial, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+   text-decoration: underline ;
+   text-decoration-style: dashed;  
+}
+
+.header3{
+    font:  15px Arial, sans-serif;
+    font-weight: bold;
+    color: darkgoldenrod;
+   text-decoration: overline ;
+   text-decoration-style: solid;  
+}
+
+.grid{
+    background-image: url("images/ba.jpg") ;  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: dotted;
+  
+  border-width:medium;
+  border-color: black;
+}
+
+.item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  border: double;
+  border-radius: 8px;
+  border-width:thick;
+  border-color: darkblue;  
+}
+
+.item2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  border: double;
+  border-radius: 8px;
+  border-width:thick;
+  border-color: darkgreen;  
+}
+
+.item3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  border: double;
+  border-radius: 8px;
+  border-width:thick;
+  border-color: darkred;
+  
+}
